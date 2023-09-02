@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Rock-Paper-Scissor-Game</title>
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">    
 </head>
 <body>
-
+    <h1>Rock Papers Scissor The Game</h1>
+    <div class="gameChoice">
+        <button id="rock">ROCK</button>
+        <button id="paper">PAPER</button>
+        <button id="scissor">SCISSOR</button>
+    </div>
+    <div class="result">
+        <div id="user"><div>User Choice</div><span></span></div>
+        <div id="comp"><div>Computer Choice</div><span></span></div>
+        <div id="result"><div>Winner of Round</div><span></span></div>
+    </div>
+    <div id="round"><p>Round Number : 0</p></div>
+    <button class="reset">RESET</button>
 </body>
 </html>
